@@ -3,7 +3,7 @@
 :root {
     --cor-de-fundo: #1E1E1E;
     --azul: #6FFF57;
-    --verde: #FFFFFF;
+    --roxo: #FFFFFF;
     --botao-ativo: #3A375E;
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(58, 55, 94, 0.3);
@@ -11,7 +11,7 @@
 
 body {
     background-color: var(--cor-de-fundo);
-    color: var(--branco);
+    color: var(--cinza);
     font-family: 'Chakra Petch', sans-serif;
 }
 
@@ -33,14 +33,14 @@ body {
 }
 
 .titulo-principal span {
-    color: var(--azul);
+    color: var(--roxo);
 }
 
 
 .botao {
     font-family: 'Chakra Petch', sans-serif;
     background-color: var(--botao-inativo);
-    color: var(--verde);
+    color: var(--azul);
     display: flex;
     justify-content: center;
     padding: 1em;
@@ -63,7 +63,7 @@ body {
 
 .botao.ativo {
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde);
+    border-bottom: 4px solid var(--roxo);
 }
 
 .abas-textos {
@@ -87,7 +87,7 @@ body {
 
 .aba-conteudo-titulo-secundario {
     text-align: center;
-    color: var(--branco);
+    color: var(--cinza);
     text-transform: uppercase;
 }
 
@@ -110,7 +110,7 @@ body {
 }
 
 .contador-digito-texto {
-    color: var(--verde);
+    color: var(--roxo);
     font-size: 20px;
     margin: 0;
 
